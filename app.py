@@ -3,7 +3,7 @@ import requests
 import pandas as pd
 
 st.set_page_config(page_title="Currency Exchange Rates", layout="centered")
-st.markdown("<h1 style='font-size:30px;'>โปรแกรมแสดงอัตราแลกเปลี่ยนสกุลเงิน</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='font-size:40px;'>โปรแกรมแสดงอัตราแลกเปลี่ยนสกุลเงิน</h1>", unsafe_allow_html=True)
 st.caption("ข้อมูลเรียลไทม์จาก ExchangeRate-API")
 
 # กำหนด API key
@@ -51,4 +51,5 @@ else:
 
 st.markdown("---")
 st.caption("Deploy โดย: นางสาวเจนจิรา ชมภู 6610886107")
+
 
